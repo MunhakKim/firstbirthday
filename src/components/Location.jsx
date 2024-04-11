@@ -1,6 +1,6 @@
 import React from 'react';
 import './Location.css';
-import cafeImage from '../assets/boda658.jpg';
+import cafeImage from '../assets/location.png';
 import { HiOutlineMapPin } from 'react-icons/hi2';
 
 const Location = () => {
@@ -11,11 +11,17 @@ const Location = () => {
         <span className='section__subtitle'>
         경기 용인시 기흥구 흥덕1로 13 흥덕IT밸리 컴플렉스동 2F
           <br />
-          ■ 주차 : 컴플렉스동 지하2-3층에 주차후, 엘리베이터 이용 → 지상 2층
+          ■ 주차 : 컴플렉스동 지하2-3층에 주차후, 
           <br />
-          * GATE 상관없이 진입후, 지하 2-3층 "E 기둥"에 주차하시면 편리합니다
+          엘리베이터 이용 → 지상 2층
           <br />
-          ■ 대중교통 : 흥덕IT밸리, 영덕레스피아, 삼성전자입구 정거장 → 도보 5분
+          * GATE 상관없이 진입후, 
+          <br />
+          지하 2-3층 "E 기둥"에 주차하시면 편리합니다
+          <br />
+          ■ 대중교통 : 흥덕IT밸리, 영덕레스피아, 
+          <br />
+          삼성전자입구 정거장 → 도보 5분
         </span>
       </div>
 
