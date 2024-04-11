@@ -19,6 +19,7 @@
   /* --body-font: 'Poppins', sans-serif; */
   --body-font: 'East Sea Dokdo', sans-serif;
   --special-font: 'East Sea Dokdo', sans-serif;
+  --paragraph-font: 'Poppins', sans-serif;
   --text-sm: 0.875rem; /* 14px */
   --text-base: 1rem; /* 16px */
   --text-lg: 1.125rem; /* 18px */
@@ -117,6 +118,7 @@ button {
 
 .section__subtitle {
   display: block;
+  font-family: var(--paragraph-font);
   font-size: var(--text-3xl);
   margin-bottom: 4rem;
 }

@@ -62,12 +62,14 @@ const Home = () => {
             </motion.h1>
 
             <motion.h2 variants={eachVariants} className='home__subtitle'>
-              5.18 (토) 오전 11시 30분, <a href='#location'>홍록기파티하우스 수원점</a>
+              5.18(토) 오전 11시 30분
+              <br /> 
+              <a href='#area'>홍록기파티하우스 수원점</a>
             </motion.h2>
 
             <motion.div variants={eachVariants} className='button-group'>
               <a
-                href='#location'
+                href='#area'
                 className='button button-primary button--flex'
               >
                 위치보기

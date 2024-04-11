@@ -35,7 +35,7 @@
 
 .home__subtitle {
   position: relative;
-  font-family: var(--special-font);
+  font-family: var(--paragraph-font);
   font-size: var(--text-5xl);
   color: var(--text-color);
 }

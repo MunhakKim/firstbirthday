@@ -5,11 +5,14 @@ import { HiOutlineMapPin } from 'react-icons/hi2';
 
 const Location = () => {
   return (
-    <section className='location__container' id='location'>
+    <section className='location__container' id='area'>
       <div>
         <h2 className='section__title'>홍록기파티하우스 수원점</h2>
         <span className='section__subtitle'>
-        경기 용인시 기흥구 흥덕1로 13 흥덕IT밸리 컴플렉스동 2F
+         경기 용인시 기흥구 흥덕1로 13 
+         <br />
+        흥덕IT밸리 컴플렉스동 2F
+          <br />
           <br />
           ■ 주차 : 컴플렉스동 지하2-3층에 주차후, 
           <br />
@@ -18,6 +21,7 @@ const Location = () => {
           * GATE 상관없이 진입후, 
           <br />
           지하 2-3층 "E 기둥"에 주차하시면 편리합니다
+          <br />
           <br />
           ■ 대중교통 : 흥덕IT밸리, 영덕레스피아, 
           <br />

@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import aboutImg from '../assets/profile.jpg';
+import aboutGif from '../assets/profile_2.gif'
 import { HiOutlineCalendarDays, HiOutlineCheckCircle } from 'react-icons/hi2';
 import { LiaBabySolid } from 'react-icons/lia';
 
@@ -12,7 +12,7 @@ const About = () => {
       {/* Grid 4 x 4 */}
       <div className='grid__wrapper grid'>
         {/* Profile Image */}
-        <img src={aboutImg} alt='my son' className='about__img' />
+        <img src={aboutGif} alt='my son' className='about__img' />
 
         <div className='about__box'>
           <HiOutlineCalendarDays size={25} />
