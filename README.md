@@ -24,7 +24,7 @@
 // components/Photo.jsx 내 설정값
 
 // 사진 갯수 설정값
-const PHOTO_COUNT = 6;
+const PHOTO_COUNT = 7;
 // 포개어지는 사진의 각도 범위
 const DEGREE_RANGE = 10;
 ```

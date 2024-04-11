@@ -7,11 +7,15 @@ const Location = () => {
   return (
     <section className='location__container' id='location'>
       <div>
-        <h2 className='section__title'>Boda658</h2>
+        <h2 className='section__title'>홍록기파티하우스 수원점</h2>
         <span className='section__subtitle'>
-          경기 광주시 초월읍 현산안길 34 (우)12728
+        경기 용인시 기흥구 흥덕1로 13 흥덕IT밸리 컴플렉스동 2F
           <br />
-          (경기 광주시 초월읍 지월리 658-1)
+          ■ 주차 : 컴플렉스동 지하2-3층에 주차후, 엘리베이터 이용 → 지상 2층
+          <br />
+          * GATE 상관없이 진입후, 지하 2-3층 "E 기둥"에 주차하시면 편리합니다
+          <br />
+          ■ 대중교통 : 흥덕IT밸리, 영덕레스피아, 삼성전자입구 정거장 → 도보 5분
         </span>
       </div>
 
