@@ -8,8 +8,9 @@ const Location = () => {
     <section className='location__container' id='area'>
       <div>
         <h2 className='section__title'>홍록기파티하우스 수원점</h2>
-        {/* Navigation Link */}
-        <div className='location-button-group-wrapper'>
+      </div>
+      {/* Navigation Link */}
+      <div className='location-button-group-wrapper'>
           <div className='button-group'>
             <a
               href='https://naver.me/5JJQh1Gq'
@@ -32,7 +33,7 @@ const Location = () => {
             </a>
           </div>
         </div>
-        <span className='section__subtitle'>
+      <span className='section__subtitle'>
          경기 용인시 기흥구 흥덕1로 13 
          <br />
         흥덕IT밸리 컴플렉스동 2F
@@ -51,8 +52,6 @@ const Location = () => {
           <br />
           삼성전자입구 정거장 → 도보 5분
         </span>
-      </div>
-
       {/* Map Image */}
       <div className='location__wrapper'>
         <img src={cafeImage} alt='카페이미지' className='location__img' />

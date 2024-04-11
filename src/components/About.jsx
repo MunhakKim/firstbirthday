@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import aboutGif from '../assets/profile_2.gif'
-import { HiOutlineCalendarDays, HiOutlineCheckCircle } from 'react-icons/hi2';
+import { HiOutlineCalendarDays, HiOutlineCheckCircle, HiUsers } from 'react-icons/hi2';
 import { LiaBabySolid } from 'react-icons/lia';
 
 const About = () => {
@@ -13,6 +13,14 @@ const About = () => {
       <div className='grid__wrapper grid'>
         {/* Profile Image */}
         <img src={aboutGif} alt='my son' className='about__img' />
+
+        <div className='about__box'>
+          <HiUsers size={25} />
+          <span className='about__subtitle'>아빠</span>
+          <h3 className='about__title'>김문학</h3>
+          <span className='about__subtitle'>엄마</span>
+          <h3 className='about__title'>이승미</h3>
+        </div>
 
         <div className='about__box'>
           <HiOutlineCalendarDays size={25} />
