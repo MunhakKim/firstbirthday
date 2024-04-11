@@ -28,7 +28,7 @@ const Location = () => {
       <div className='location-button-group-wrapper'>
         <div className='button-group'>
           <a
-            href='https://naver.me/xtWvjTGI'
+            href='https://naver.me/5JJQh1Gq'
             target='_blank'
             rel='noreferrer'
             className='button button-primary button--flex'
@@ -38,7 +38,7 @@ const Location = () => {
           </a>
 
           <a
-            href='https://place.map.kakao.com/254406486'
+            href='https://place.map.kakao.com/26262361'
             target='_blank'
             rel='noreferrer'
             className='button button-reverse button--flex'
